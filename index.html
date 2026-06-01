@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Feelume｜感受、感動、敢做</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500&family=Cormorant+Garamond:wght@300;500;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{font-family:'Noto Sans TC',sans-serif;background:#ffffff;overflow-x:hidden;color:#444;}
+nav{position:fixed;top:0;width:100%;padding:28px 10%;display:flex;justify-content:space-between;align-items:center;background:rgba(255,255,255,.92);backdrop-filter:blur(15px);border-bottom:1px solid rgba(0,0,0,.03);z-index:999;}
+.logo{font-family:'Cormorant Garamond';font-size:38px;font-weight:700;letter-spacing:2px;color:#f47eae;}
+nav ul{display:flex;list-style:none;gap:50px;}
+nav a{text-decoration:none;color:#666;font-size:14px;letter-spacing:1px;transition:.4s;}
+nav a:hover{color:#f47eae;}
+.hero{height:100vh;display:flex;align-items:center;justify-content:center;padding:0 10%;background:linear-gradient(135deg,#ffffff 0%,#fff9fb 50%,#ffeef5 100%);position:relative;overflow:hidden;}
+.hero::before{content:"";position:absolute;width:700px;height:700px;right:-250px;top:-100px;background:radial-gradient(rgba(255,190,220,.35),transparent 70%);border-radius:50%;}
+.hero-left{width:70%;z-index:2;text-align:left;}
+.small-title{font-size:12px;letter-spacing:6px;color:#f89cc0;margin-bottom:25px;}
+.hero h1{font-family:'Cormorant Garamond';font-size:95px;font-weight:500;line-height:1;margin-bottom:25px;color:#f47eae;}
+.slogan{font-size:28px;font-weight:300;margin-bottom:35px;color:#555;}
+.extra-line{font-size:18px;font-weight:400;color:#666;margin:25px 0;}
+button{margin-top:20px;padding:16px 36px;border:none;background:#f47eae;color:white;font-size:15px;border-radius:50px;cursor:pointer;transition:.5s;}
+button:hover{transform:translateY(-5px);box-shadow:0 15px 30px rgba(244,126,174,.2);}
+.about{padding:150px 10%;display:flex;justify-content:space-between;align-items:center;}
+.about-title{width:35%;}
+.about-title h2{font-family:'Cormorant Garamond';font-size:60px;font-weight:500;color:#f47eae;}
+.about-content{width:50%;line-height:2.3;color:#777;font-size:16px;}
+.emotion{padding:140px 10%;text-align:center;background:#fffafc;}
+.emotion h2{font-family:'Cormorant Garamond';font-size:60px;font-weight:500;margin-bottom:70px;color:#f47eae;}
+.emotion-list{display:flex;justify-content:center;gap:80px;flex-wrap:wrap;}
+.item{min-width:180px;max-width:220px;}
+.item span{display:block;font-size:12px;letter-spacing:4px;color:#f89cc0;margin-bottom:18px;}
+.item h3{margin-bottom:12px;font-size:20px;font-weight:500;}
+.item p{line-height:1.8;color:#888;font-size:14px;}
+footer{padding:100px;text-align:center;}
+footer h3{font-family:'Cormorant Garamond';font-size:40px;font-weight:500;margin-bottom:20px;color:#f47eae;}
+footer p{line-height:2;color:#999;font-size:14px;}
+@media(max-width:900px){
+.hero{flex-direction:column;justify-content:center;text-align:center;height:auto;padding:150px 10%;}
+.hero-left{width:100%;}
+.description{width:100%;}
+.about{flex-direction:column;text-align:center;}
+.about-title{width:100%;margin-bottom:40px;}
+.about-content{width:100%;}
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="logo">Feelume</div>
+  <ul>
+    <li><a href="#">品牌理念</a></li>
+    <li><a href="#">產品介紹</a></li>
+    <li><a href="#">商品販售</a></li>
+    <li><a href="#">聯絡我們</a></li>
+  </ul>
+</nav>
+
+<section class="hero">
+  <div class="hero-left">
+    <div class="small-title">EMOTION IN SCENT</div>
+    <h1>Feelume</h1>
+    <div class="slogan">感受、感動、敢做</div>
+    <div class="extra-line">無論是開心或低潮，我們陪伴你勇敢面對內心的起伏。</div>
+    <button>探索香氣</button>
+  </div>
+</section>
+
+<section class="about">
+  <div class="about-title">
+    <h2>品牌理念</h2>
+  </div>
+  <div class="about-content">
+    因現代生活步調快速、壓力繁重，我們希望透過能讓人放鬆與舒緩情緒的療癒香氛，為日常帶來一點喘息的空間。<br><br>
+    同時，我們也結合現代人喜歡透過吊飾展現自我風格的習慣，將香氛融入其中，讓這份療癒不只是氣味，更能以輕便、隨身的形式陪伴在生活裡。
+  </div>
+</section>
+
+<section class="emotion">
+  <h2>情緒香調</h2>
+  <div class="emotion-list">
+    <div class="item">
+      <span>SAD｜WARM</span>
+      <h3>難過｜溫暖</h3>
+      <p>香草、奶香、白麝香</p>
+    </div>
+    <div class="item">
+      <span>ANGRY｜RELEASE</span>
+      <h3>生氣｜釋放</h3>
+      <p>辛香料、深木質、琥珀</p>
+    </div>
+    <div class="item">
+      <span>ANXIOUS｜CALM</span>
+      <h3>焦慮｜舒緩</h3>
+      <p>薰衣草、洋甘菊、綠葉</p>
+    </div>
+    <div class="item">
+      <span>HAPPY｜BRIGHT</span>
+      <h3>開心｜明亮</h3>
+      <p>蘋果、氣泡感花香</p>
+    </div>
+    <div class="item">
+      <span>JOY｜SWEET</span>
+      <h3>幸福｜甜蜜</h3>
+      <p>無花果、雪松、棉花糖</p>
+    </div>
+    <div class="item">
+      <span>IRRITATED｜COOL</span>
+      <h3>煩躁｜降溫</h3>
+      <p>白茶、檸檬、水感</p>
+    </div>
+    <div class="item">
+      <span>TIRED｜AWAKE</span>
+      <h3>疲倦｜喚醒</h3>
+      <p>橙花、檀木、香草</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <h3>Feelume</h3>
+  <p>感受、感動、敢做<br>© 2026 Feelume</p>
+</footer>
+
+</body>
+</html>
